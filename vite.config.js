@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Base path for GitHub Pages - must match your repo name
-  base: process.env.GITHUB_ACTIONS ? '/APP_HOC_TU_VUNG/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/zlearning/' : '/',
   build: {
     outDir: 'dist',
     // Use esbuild (default, faster than terser)
